@@ -44,7 +44,15 @@ graph LR
     D --> F[Stock Updated]
     E --> G[Audit Report]
 ```
+### ⚙️ How to Setup & Run
+1.  **Clone the Repo:**
+    ```bash
+    git clone [https://github.com/bushra-waseem/Advance-Inventory-Stack-Java.git](https://github.com/bushra-waseem/Advance-Inventory-Stack-Java.git)
+    ```
+2.  **Open in IDE:** Import the project into **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.
+3.  **Compile & Run:** Run the main Java file to launch the GUI window.
 
+---
 ## ✨ Advanced Features
 * **Custom Stack Implementation:** Efficiently manages LIFO operations for inventory.
 * **Real-time Statistics:** Automatically calculates the total value of all stock items.
