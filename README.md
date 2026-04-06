@@ -16,7 +16,7 @@ The core of this system is built on the **Stack** data structure. In an inventor
 
 ### 1. Main Interface & Table View
 A professional dashboard featuring a dynamic table that displays item positions, quantities, and total values.
-![Main Interface](Screenshots/01%20main%20interface.png)
+![Main Interface]<img src="Screenshots/01%20main%20interface.png" width="350"> ![Statistics Log]<img src="Screenshots/04%20statistics%20&%20activity%20log.png" width="350">
 
 ### 2. Stack Operations (Pop & Peek)
 Visual confirmation of removing items (Pop) and viewing the top-most item (Peek) within the inventory stack.
