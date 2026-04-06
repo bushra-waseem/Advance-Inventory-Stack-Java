@@ -3,7 +3,15 @@
 An advanced desktop application that manages inventory using a **Stack (LIFO)** data structure, featuring a rich UI, real-time statistics, and activity logging.
 
 ---
+## 🧠 Logic & Data Structure
+The core of this system is built on the **Stack** data structure. In an inventory context, this is ideal for scenarios where the most recently received stock needs to be processed or audited first.
 
+### Key Operations:
+* **Push (Add Item):** New stock is added to the top of the stack.
+* **Pop (Remove Item):** The most recently added item is removed/sold first.
+* **Peek:** View the latest item in the inventory without removing it.
+
+---
 ## 📸 Project Highlights
 
 ### 1. Main Interface & Table View
@@ -24,6 +32,18 @@ Built-in validation to prevent incorrect data entry and ensure system stability.
 ![Error Detection](Screenshots/05%20error%20detect.png)
 
 ---
+
+### 🔄 Inventory Workflow Diagram
+
+```mermaid
+graph LR
+    A[New Stock Arrival] --> B[Push to Stack]
+    B --> C{Inventory Stack}
+    C --> D[Pop: Dispatch/Sale]
+    C --> E[Peek: Check Latest Entry]
+    D --> F[Stock Updated]
+    E --> G[Audit Report]
+```
 
 ## ✨ Advanced Features
 * **Custom Stack Implementation:** Efficiently manages LIFO operations for inventory.
