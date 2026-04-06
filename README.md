@@ -29,6 +29,8 @@ Built-in validation to prevent incorrect data entry and ensure system stability.
 <img src="Screenshots/05%20error%20detect.png" width="350"> 
 </p>
 
+---
+
 ### 🔄 Inventory Workflow Diagram
 
 ```mermaid
