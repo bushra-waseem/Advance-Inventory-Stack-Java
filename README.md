@@ -17,15 +17,15 @@ The core of this system is built on the **Stack** data structure. In an inventor
 
 ### 1. Main Interface & Table View
 A professional dashboard featuring a dynamic table that displays item positions, quantities, and total values.
-![Main Interface]<img src="Screenshots/01%20main%20interface.png" width="350">
+<img src="Screenshots/01%20main%20interface.png" width="350">
 
 ### 2. Stack Operations (Pop & Peek)
 Visual confirmation of removing items (Pop) and viewing the top-most item (Peek) within the inventory stack.
-![Pop Operation]<img src="Screenshots/02%20pop%20operation.png" width="350"> ![Peek Operation]<img src="Screenshots/03%20peek%20operation.png" width="350">
+<img src="Screenshots/02%20pop%20operation.png" width="350"> <img src="Screenshots/03%20peek%20operation.png" width="350">
 
 ### 3. Robust Error Handling
 Built-in validation to prevent incorrect data entry and ensure system stability.
-![Error Detection]<img src="Screenshots/05%20error%20detect.png" width="350"> 
+<img src="Screenshots/05%20error%20detect.png" width="350"> 
 
 ---
 
